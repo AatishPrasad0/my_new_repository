@@ -1,6 +1,7 @@
 ---
 title: "Tutorial 4"
 format: html
+bibliography: references.bib
 ---
 
 ```{r}
@@ -31,3 +32,13 @@ penguins |>
 ```
 
 @tbl-penguin-summary shows the tabular summary of penguins
+
+As shown in @fig-penguins-scatter, there is a clear positive correlation between flipper length and body mass. The specific averages for each group are detailed in @tbl-penguin-summary.
+
+## References
+This data is from [@penguins_data]
+
+
+Parenthetical: The data was originally collected by Gorman et al. [@penguins_data].
+
+Narrative: @penguins_data argues that…
